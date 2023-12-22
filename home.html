@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="menu-layout">
+      <div class="menu-item">Home</div>
+      <div class="menu-item">Products/Services</div>
+      <div class="menu-item"><a href="contactus.html">Contact Us</a></div>
+    </div>
+
+    <div class="column-layout">
+      <div class="main-column">
+        <h2>Welcome to Premium Polish</h2>
+        <p>
+          Nail polish is something that for years has connected many people. The
+          creators of Premium Polish want to spread the joy of painting nails
+          with everyone. Whether it's with your friends or your mom or your
+          Grandma, painting your nails can bring anyone together.
+        </p>
+        <p>
+          We understand that it can be a scary or challenging thing to start
+          doing. Our goal is to make it as easy and fun as possible. With our
+          wide variety of colors and accesories you are able to cusotmise your
+          nails however you would like. Our tools make it easy to do fun styles
+          just like at the salon.
+        </p>
+        <p>
+          Having trustworthy brand is always key. We want to assure you that we
+          are here for you and your nail polish journey. Our products are top of
+          the line and if there are any concerns we are always here to help!
+        </p>
+      </div>
+
+      <div class="sidebar-two">
+        <img
+          id="logo"
+          src="https://export-download.canva.com/8-VPA/DAFyLv8-VPA/10/0/0001-3925300127078359782.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20231221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231221T104410Z&X-Amz-Expires=67070&X-Amz-Signature=778e1988898ca6406d6468b8b2fcd1d7d7419e687eb40d8dda864099f8357bd3&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Premium.png&response-expires=Fri%2C%2022%20Dec%202023%2005%3A22%3A00%20GMT"
+        />
+        <div>
+          <ul>
+            <li>Nail Polish</li>
+            <li>Accesories</li>
+            <li>Tools</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--     <button id="hidebutton" onclick="hideAds()">Hide Offers</button> -->
+
+    <div id="specialoffers" class="call-outs-container">
+      <div class="call-out">
+        <h4>Weekly Deals</h4>
+        <p>
+          Premium Polish tries their absolute hardest to make sure that everyone
+          is able to try our amazing products. This month we are offering new
+          deals every Friday. When you subscribe to our email list, you will
+          recieve each of those deals every Friday!
+        </p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="call-out">
+        <h4>Monthly Boxes</h4>
+        <p>
+          A new addition to the Premium Polish family is our monthly
+          subscription boxes. These boxes are only $15 and you will recieve a
+          polish, accecsory, tool, and a special gift as well. It is a great
+          gift for a friend or family member, or even yourself!
+        </p>
+        <button>Learn More</button>
+      </div>
+    </div>
+
+    <div style="text-align: center">
+      <button id="hidebutton" onclick="hideAds()">Hide Offers</button>
+    </div>
+    <script>
+      function hideAds() {
+        var x = document.getElementById("specialoffers");
+        var y = document.getElementById("hidebutton");
+        x.style.display = "none";
+        y.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
